@@ -8,7 +8,7 @@ main(){
 		scanf("%d",&a[i]);
 	}
 	
-	for(i=0;i<5;i++){
+	for(i=0;i<=5;i++){
 		if(a[i]>a[i+1]){
 			temp = a[i];
 			a[i]=a[i+1];
